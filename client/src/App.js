@@ -1,7 +1,7 @@
 // import { response } from "express";
 import React, { useState } from "react";
-import List from "./List.js";
-import Home from "./Home.js";
+import List from "./components/List.js";
+import Home from "./components/Home.js";
 import "./App.css";
 
 export default function App() {
