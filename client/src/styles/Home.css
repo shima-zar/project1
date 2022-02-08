@@ -1,0 +1,120 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+image {
+  width: 10px;
+  justify-content: center;
+  align-items: bottom;
+}
+video {
+  object-fit: fill;
+  width: 100%;
+  height: 90%;
+  padding-bottom: 35em;
+  position: fixed;
+  z-index: -1;
+}
+
+.headerContainer {
+  width: auto;
+  margin-left: 50px;
+}
+
+.headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  margin: 4em 0em 0em;
+  font-size: 30px;
+  margin-bottom: 0em;
+  height: 60px;
+  font-weight: normal;
+  color: rgb(60, 59, 59);
+}
+
+.headerContainer h2 {
+  font-size: 26px;
+  margin-top: -1em;
+  margin-bottom: 5em;
+  /* margin-left: -6em; */
+  font-weight: bold;
+  color: rgb(60, 59, 59);
+}
+
+.headerContainer h3 {
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 0em;
+  margin-bottom: 2em;
+  font-weight: normal;
+  color: rgb(60, 59, 59);
+}
+
+.headerContainer h4 {
+  font-size: 18px;
+  margin-top: -2em;
+  /* margin-left: -8em; */
+  margin-bottom: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+.headerContainer button {
+  /* margin-left: -8em; */
+  background-color: #e26f6f;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  justify-content: center;
+  height: 50px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 1.8em;
+  color: white;
+}
+
+.headerContainer button:hover {
+  cursor: pointer;
+  transition: 0.1s ease-in;
+  color: rgb(60, 59, 59);
+  background-color: #e59d9d;
+}
+
+@media only screen and (max-width: 650px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerContainer {
+    margin-left: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+
+  .headerContainer button {
+    background-color: white;
+    color: #e26f6f;
+    margin-bottom: -30px;
+  }
+
+  .headerContainer button:hover {
+    background-color: #e26f6f;
+    color: white;
+  }
+}
